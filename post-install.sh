@@ -16,4 +16,4 @@ echo "${B}##Installation logithèque + gestion flatpak##${N}"
 
 sudo apt install gnome-software gnome-software-plugin-flatpak -y
 
-echo "${B}##Penser à ajouter les XDG dans ~/.profile (export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:$HOME/.local/share/flatpak/exports/share")##${N}"
+echo 'export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:$HOME/.local/share/flatpak/exports/share"' >> ~/.profile
