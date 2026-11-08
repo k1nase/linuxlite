@@ -1,4 +1,4 @@
-**Fichiers post-installation pour linux lite et ubuntu mate 26.04**
+**Fichiers post-installation pour linux lite et ubuntu mate 26.10**
 
 ### Utilisation
 1. Télécharger le fichier souhaité
