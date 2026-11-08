@@ -34,3 +34,5 @@ echo "${B}##Installation autres paquets##${N}"
 sudo apt install geogebra xcas texlive-full texmaker pyzo python3-pip python3-scipy python3-matplotlib
 
 echo 'export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/flatpak/exports/share:$HOME/.local/share/flatpak/exports/share"' >> ~/.profile
+
+sudo reboot
